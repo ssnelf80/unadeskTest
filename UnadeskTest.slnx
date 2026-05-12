@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/common/">
+    <File Path="Directory.Packages.props" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="src/UnadeskTest.Adapters/UnadeskTest.Adapters.csproj" />
+  <Project Path="src/UnadeskTest.App/UnadeskTest.App.csproj" />
+  <Project Path="src/UnadeskTest.DAL/UnadeskTest.DAL.csproj" />
+  <Project Path="src/UnadeskTest.Domain/UnadeskTest.Domain.csproj" />
+  <Project Path="src/UnadeskTest.Host/UnadeskTest.Host.csproj" />
+</Solution>

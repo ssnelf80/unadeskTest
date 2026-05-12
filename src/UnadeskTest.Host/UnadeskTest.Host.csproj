@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\UnadeskTest.Adapters\UnadeskTest.Adapters.csproj" />
+      <ProjectReference Include="..\UnadeskTest.App\UnadeskTest.App.csproj" />
+      <ProjectReference Include="..\UnadeskTest.DAL\UnadeskTest.DAL.csproj" />
+      <ProjectReference Include="..\UnadeskTest.Domain\UnadeskTest.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentMediator.Microsoft.Extensions.DependencyInjection" />
+      <PackageReference Include="FluentValidation" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+      <PackageReference Include="MassTransit" />
+      <PackageReference Include="MassTransit.RabbitMQ" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Minio" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
+</Project>

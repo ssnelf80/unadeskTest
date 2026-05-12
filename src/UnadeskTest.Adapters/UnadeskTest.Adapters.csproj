@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Minio" />
+      <PackageReference Include="PdfPig" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\UnadeskTest.Domain\UnadeskTest.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
